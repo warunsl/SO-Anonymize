@@ -1,0 +1,19 @@
+{
+    "name": "SO Anonymize",
+    "version": "0.1",
+    "description": "Strips out user info from StackOverflow sites",
+    "background" : {
+        "scripts": ["background.js"],
+        "persistent": false
+     },
+    "manifest_version": 2,
+    "browser_action": {
+        "default_title": "Strips out user info from StackOverflow sites",
+        "default_icon": "icon.png",
+        "default_popup": "background.html"
+    },
+    "content_scripts": [ {
+        "js": [ "jquery-2.1.1.min.js", "so_anon.js" ],
+        "matches": [ "http://stackoverflow.com/questions/*", "https://stackoverflow.com/questions/*", "http://*.stackexchange.com/questions/*", "https://*.stackexchange.com/questions/*"]
+    }]
+}
