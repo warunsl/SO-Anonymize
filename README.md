@@ -1,6 +1,13 @@
 SO-Anonymize
 ============
 
-Many a times when I answer questions on Stack Overflow sites, I tend to get biased towards an answer from a person with more Stack Overflow points. I needed a way to go through the answers and comments objectively.
+This is a Chrome extension that strips out user information from Stack Overflow sites from the questions pages.
 
-This is a Chrome extension that I created for myself that strips out user information from Stack Overflow sites from the questions pages.
+Background - [http://warunsl.in/musings/2016/07/05/stack-overflow-and-the-reputation.html](http://warunsl.in/musings/2016/07/05/stack-overflow-and-the-reputation.html)
+
+### Instructions:
+- Clone the repository.
+- Go to Chrome -> More tools -> Extensions.
+- Click on "Developer mode".
+- Click on "Load unpacked extension".
+- Navigate to the cloned repository.
